@@ -1,0 +1,26 @@
+# Site settings
+timezone: Europe/Berlin
+
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://bd.m03p.de' # the base hostname & protocol for your site
+
+title: 'BrainDump'
+author: 'Daniel Limberger'
+
+# Handling Reading
+safe: true
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+
+# Outputting
+exclude: [
+  'backup',
+  'vendor',
+  'LICENSE',
+  'README.md']
+
+# CSS Minification
+sass:
+  style: compressed
