@@ -86,5 +86,8 @@ header {
   @include hover-focus {
     color: $brand-primary;
   }
-}
 
+  &:focus {
+    outline: none;
+  }
+}
